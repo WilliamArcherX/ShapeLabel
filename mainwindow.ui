@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(65, 65, 65);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_face">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>256</width>
+      <height>356</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>256</width>
+      <height>356</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>256</width>
+      <height>356</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ShapedLabel.qrc">:/rc/face.png</pixmap>
+    </property>
+   </widget>
+   <widget class="CShapeLabel" name="label_mouth">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>232</y>
+      <width>132</width>
+      <height>99</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>132</width>
+      <height>99</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>132</width>
+      <height>99</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ShapedLabel.qrc">:/rc/mouth_1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="CShapeLabel" name="label_nose">
+    <property name="geometry">
+     <rect>
+      <x>143</x>
+      <y>190</y>
+      <width>79</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>79</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>79</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ShapedLabel.qrc">:/rc/nose_1.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>350</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CShapeLabel</class>
+   <extends>QLabel</extends>
+   <header>shape_label.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ShapedLabel.qrc"/>
+ </resources>
+ <connections/>
+</ui>

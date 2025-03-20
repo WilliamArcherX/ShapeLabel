@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/face.png</file>
+        <file>rc/mouth_1.png</file>
+        <file>rc/mouth_2.png</file>
+        <file>rc/nose_1.png</file>
+        <file>rc/nose_2.png</file>
+    </qresource>
+</RCC>
